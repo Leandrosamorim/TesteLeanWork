@@ -48,7 +48,7 @@ namespace TesteLeanWork
             int[] primeiroArray = { 1, 3, 7, 29, 42, 98, 234, 93 };
             int[] segundoArray = { 4, 6, 93, 7, 55, 32, 3 };
 
-            var result = primeiroArray.Where(x => !segundoArray.Contains(x)).ToList(); /*.Any(y => y == x)).ToArray();*/
+            var result = primeiroArray.Where(x => !segundoArray.Contains(x)).ToList();
 
             result.ForEach(i => Console.Write("{0} ", i));
 
